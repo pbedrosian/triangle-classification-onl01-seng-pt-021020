@@ -11,7 +11,7 @@ class Triangle
     elsif (@side_1+@side_2 <= @side_3) || (@side_1+@side_3 <= @side_2) || (@side_2+@side_3 <= @side_1)
       raise TriangleError
     elsif @side_1 && @side_2 && @side_3 == 0
-      raise Illegal
+      raise TriangleError
     else
       if (@side_1 == @side_2) && (@side_2 == @side_3)
         :equilateral
