@@ -22,8 +22,8 @@ class Triangle
       end
     end
   end
-end
 
-class TriangleError < StandardError
-  # triangle error code
+  class TriangleError < StandardError
+    # triangle error code
+  end
 end
